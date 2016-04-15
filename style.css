@@ -1,0 +1,53 @@
+body {
+	background: #dadada; 
+	margin: 0; 
+	padding: 0;
+	color: #272727;
+}
+img {
+	margin: 0; 
+	padding: 0; 
+	vertical-align: middle; 
+	border: none;
+}
+.main {
+	margin: 20px; 
+	border: 1px solid #ccc; 
+	padding: 20px; 
+	background: #fff; 
+	border-radius: 3px;
+}
+.bl {
+	padding: 5px 10px; 
+	border:1px solid #ddd; 
+	background: #fffde1; 
+	border-radius: 3px;
+	margin: 20px;
+}
+/**/
+.main {
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: -webkit-box;
+	max-width: 1000px;
+	margin: 20px auto;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+	flex-flow: row wrap;
+}
+.bl {
+	flex: 1 1 300px;
+}
+.fl1 {
+	background-color: #000; 
+	color: aliceblue;
+}
+.fl2 {
+	background-color: cyan;
+}
+.fl3 {}
+.fl4 {}
+.fl5 {}
+.fl6 {}
